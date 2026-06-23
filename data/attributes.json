@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "items": {
+    "chest": {
+      "level": 3,
+      "xp": 402,
+      "totalXp": 756,
+      "lastChangedAt": "2026-06-22T15:20:15.530Z"
+    },
+    "shoulders": {
+      "level": 2,
+      "xp": 35,
+      "totalXp": 135,
+      "lastChangedAt": "2026-06-22T15:20:15.530Z"
+    },
+    "back": {
+      "level": 1,
+      "xp": 45,
+      "totalXp": 45,
+      "lastChangedAt": "2026-06-22T15:20:15.531Z"
+    },
+    "legs": {
+      "level": 5,
+      "xp": 401,
+      "totalXp": 1844,
+      "lastChangedAt": "2026-06-22T15:20:15.534Z"
+    },
+    "arms": {
+      "level": 2,
+      "xp": 51,
+      "totalXp": 151,
+      "lastChangedAt": "2026-06-22T15:20:15.531Z"
+    },
+    "core": {
+      "level": 3,
+      "xp": 394,
+      "totalXp": 748,
+      "lastChangedAt": "2026-06-22T15:20:15.534Z"
+    },
+    "cardio": {
+      "level": 5,
+      "xp": 617,
+      "totalXp": 2060,
+      "lastChangedAt": "2026-06-22T15:20:15.534Z"
+    }
+  },
+  "lastWorkoutIdApplied": "w_20260621_9c8dd6"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "trainquest-agent-server",
+  "version": "1.0.0",
+  "description": "TrainQuest Agent local API server",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "feishu:sync": "ts-node src/scripts/syncFeishuBase.ts"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.66.1",
+    "@types/uuid": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.29",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

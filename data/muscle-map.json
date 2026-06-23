@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "exerciseName": "卧推",
+      "aliases": [
+        "杠铃卧推",
+        "哑铃卧推",
+        "bench press"
+      ],
+      "type": "strength",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "arms",
+        "shoulders"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "深蹲",
+      "aliases": [
+        "杠铃深蹲",
+        "哑铃深蹲",
+        "squat"
+      ],
+      "type": "strength",
+      "primary": [
+        "legs"
+      ],
+      "secondary": [
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "引体向上",
+      "aliases": [
+        "pullup",
+        "pull-up",
+        "chin-up"
+      ],
+      "type": "strength",
+      "primary": [
+        "back"
+      ],
+      "secondary": [
+        "arms"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "硬拉",
+      "aliases": [
+        "罗马尼亚硬拉",
+        "deadlift"
+      ],
+      "type": "strength",
+      "primary": [
+        "back",
+        "legs"
+      ],
+      "secondary": [
+        "core",
+        "arms"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "推举",
+      "aliases": [
+        "肩推",
+        "哑铃肩推",
+        "overhead press",
+        "OHP"
+      ],
+      "type": "strength",
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [
+        "arms",
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "侧平举",
+      "aliases": [
+        "lateral raise"
+      ],
+      "type": "strength",
+      "primary": [
+        "shoulders"
+      ],
+      "secondary": [],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "弯举",
+      "aliases": [
+        "二头弯举",
+        "哑铃弯举",
+        "bicep curl"
+      ],
+      "type": "strength",
+      "primary": [
+        "arms"
+      ],
+      "secondary": [],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "臂屈伸",
+      "aliases": [
+        "tricep dip",
+        "tricep extension"
+      ],
+      "type": "strength",
+      "primary": [
+        "arms"
+      ],
+      "secondary": [
+        "chest"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "俯卧撑",
+      "aliases": [
+        "push-up",
+        "pushup"
+      ],
+      "type": "strength",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "arms",
+        "shoulders",
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "卷腹",
+      "aliases": [
+        "仰卧起坐",
+        "crunch",
+        "sit-up"
+      ],
+      "type": "strength",
+      "primary": [
+        "core"
+      ],
+      "secondary": [],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "平板支撑",
+      "aliases": [
+        "plank"
+      ],
+      "type": "strength",
+      "primary": [
+        "core"
+      ],
+      "secondary": [
+        "shoulders"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "跑步",
+      "aliases": [
+        "慢跑",
+        "running",
+        "jogging"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "游泳",
+      "aliases": [
+        "swimming"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "back",
+        "shoulders"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "骑行",
+      "aliases": [
+        "cycling",
+        "自行车"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "跳绳",
+      "aliases": [
+        "jump rope"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "篮球",
+      "aliases": [
+        "打球",
+        "打篮球",
+        "basketball"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "足球",
+      "aliases": [
+        "踢球",
+        "踢足球",
+        "football",
+        "soccer"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "core"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "羽毛球",
+      "aliases": [
+        "打羽毛球",
+        "badminton"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "shoulders",
+        "arms"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "网球",
+      "aliases": [
+        "打网球",
+        "tennis"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "shoulders",
+        "arms"
+      ],
+      "enabled": true,
+      "custom": false
+    },
+    {
+      "exerciseName": "乒乓球",
+      "aliases": [
+        "打乒乓球",
+        "ping pong",
+        "table tennis"
+      ],
+      "type": "cardio",
+      "primary": [
+        "cardio"
+      ],
+      "secondary": [
+        "legs",
+        "arms"
+      ],
+      "enabled": true,
+      "custom": false
+    }
+  ]
+}

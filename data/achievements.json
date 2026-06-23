@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "definitions": [
+    {
+      "id": "habit_week_3",
+      "type": "habit",
+      "name": "每周 3 练",
+      "description": "自然周内完成 3 次训练",
+      "icon": "📅",
+      "condition": {
+        "kind": "weekly_workout_count",
+        "minCount": 3
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_week_5",
+      "type": "habit",
+      "name": "训练狂热者",
+      "description": "自然周内完成 5 次训练",
+      "icon": "🔥",
+      "condition": {
+        "kind": "weekly_workout_count",
+        "minCount": 5
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_month_10",
+      "type": "habit",
+      "name": "月度铁人",
+      "description": "本月累计训练 10 次",
+      "icon": "🏅",
+      "condition": {
+        "kind": "monthly_workout_count",
+        "minCount": 10
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_month_20",
+      "type": "habit",
+      "name": "月度战士",
+      "description": "本月累计训练 20 次",
+      "icon": "⚔️",
+      "condition": {
+        "kind": "monthly_workout_count",
+        "minCount": 20
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_stable_4weeks",
+      "type": "habit",
+      "name": "稳定输出",
+      "description": "连续 4 周每周至少训练 2 次",
+      "icon": "📈",
+      "condition": {
+        "kind": "consecutive_weeks",
+        "weeks": 4,
+        "minPerWeek": 2
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_return",
+      "type": "habit",
+      "name": "欢迎回来",
+      "description": "停训 2 周以上后恢复训练",
+      "icon": "🌟",
+      "condition": {
+        "kind": "return_after_break",
+        "minBreakDays": 14
+      },
+      "enabled": true
+    },
+    {
+      "id": "habit_first_workout",
+      "type": "habit",
+      "name": "旅程开始",
+      "description": "完成第一次训练",
+      "icon": "🚀",
+      "condition": {
+        "kind": "monthly_workout_count",
+        "minCount": 1
+      },
+      "enabled": true
+    },
+    {
+      "id": "breakthrough_pr",
+      "type": "breakthrough",
+      "name": "突破极限",
+      "description": "打破任意动作的个人重量纪录",
+      "icon": "💪",
+      "condition": {
+        "kind": "exercise_pr"
+      },
+      "enabled": true
+    },
+    {
+      "id": "breakthrough_1000t",
+      "type": "breakthrough",
+      "name": "千吨俱乐部",
+      "description": "累计总训练重量达 1,000 吨",
+      "icon": "🏆",
+      "condition": {
+        "kind": "total_volume_kg",
+        "minVolumeKg": 1000000
+      },
+      "enabled": true
+    },
+    {
+      "id": "breakthrough_100t",
+      "type": "breakthrough",
+      "name": "百吨先锋",
+      "description": "累计总训练重量达 100 吨",
+      "icon": "🎯",
+      "condition": {
+        "kind": "total_volume_kg",
+        "minVolumeKg": 100000
+      },
+      "enabled": true
+    },
+    {
+      "id": "breakthrough_10t",
+      "type": "breakthrough",
+      "name": "铁路起点",
+      "description": "累计总训练重量达 10 吨",
+      "icon": "⚡",
+      "condition": {
+        "kind": "total_volume_kg",
+        "minVolumeKg": 10000
+      },
+      "enabled": true
+    },
+    {
+      "id": "goal_lose_weight",
+      "type": "goal",
+      "name": "减重达人",
+      "description": "体重达到减重目标",
+      "icon": "🎉",
+      "condition": {
+        "kind": "weight_goal",
+        "goalType": "lose_weight"
+      },
+      "enabled": true
+    },
+    {
+      "id": "goal_gain_muscle",
+      "type": "goal",
+      "name": "增肌成功",
+      "description": "体重达到增肌目标",
+      "icon": "💯",
+      "condition": {
+        "kind": "weight_goal",
+        "goalType": "gain_muscle"
+      },
+      "enabled": true
+    }
+  ],
+  "unlocked": [
+    {
+      "id": "habit_first_workout",
+      "unlockedAt": "2026-06-05T18:22:31.902Z"
+    },
+    {
+      "id": "breakthrough_pr",
+      "unlockedAt": "2026-06-07T15:52:33.903Z"
+    },
+    {
+      "id": "habit_week_3",
+      "unlockedAt": "2026-06-07T15:53:06.498Z"
+    },
+    {
+      "id": "habit_week_5",
+      "unlockedAt": "2026-06-08T11:14:40.000Z"
+    },
+    {
+      "id": "breakthrough_10t",
+      "unlockedAt": "2026-06-08T11:17:16.736Z"
+    },
+    {
+      "id": "habit_month_10",
+      "unlockedAt": "2026-06-08T13:02:11.579Z"
+    },
+    {
+      "id": "habit_month_20",
+      "unlockedAt": "2026-06-19T16:53:39.150Z"
+    }
+  ]
+}

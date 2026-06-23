@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-rpg-bg text-rpg-text;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-rpg-panel;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-rpg-border rounded;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-rpg-accent hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-rpg-panel hover:bg-rpg-border text-rpg-text font-semibold py-2 px-4 rounded-lg border border-rpg-border transition-colors;
+  }
+  .btn-danger {
+    @apply bg-red-900 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded-lg transition-colors;
+  }
+  .card {
+    @apply bg-rpg-panel border border-rpg-border rounded-xl p-4;
+  }
+  .input {
+    @apply bg-rpg-bg border border-rpg-border rounded-lg px-3 py-2 text-rpg-text placeholder-rpg-muted focus:outline-none focus:border-rpg-accent transition-colors w-full;
+  }
+  .label {
+    @apply text-rpg-muted text-sm mb-1 block;
+  }
+  .section-title {
+    @apply text-rpg-gold font-semibold text-sm uppercase tracking-wider mb-3;
+  }
+}
+
+/* 像素字体工具类 */
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* 成就解锁动画 */
+@keyframes achievement-pop {
+  0% { transform: scale(0.5) translateY(20px); opacity: 0; }
+  60% { transform: scale(1.1) translateY(-5px); opacity: 1; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+@keyframes achievement-slide-out {
+  to { transform: translateX(120%); opacity: 0; }
+}
+
+.achievement-enter {
+  animation: achievement-pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+.achievement-exit {
+  animation: achievement-slide-out 0.3s ease-in forwards;
+}
+
+/* 等级提升闪光 */
+@keyframes level-up-flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.level-up-flash {
+  animation: level-up-flash 0.3s ease-in-out 3;
+}
+
+/* 角色跳动动画 */
+@keyframes char-jump {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+.char-jump {
+  animation: char-jump 0.35s ease-in-out 2;
+}
+
+/* 角色待机浮动动画 */
+@keyframes char-idle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+}
+.char-idle {
+  animation: char-idle 2.8s ease-in-out infinite;
+}
+
+/* XP 条动画 */
+@keyframes xp-fill {
+  from { width: var(--xp-from); }
+  to { width: var(--xp-to); }
+}

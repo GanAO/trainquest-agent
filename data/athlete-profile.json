@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-10T00:00:00.000Z",
+  "basics": {
+    "age": 24,
+    "heightCm": 175,
+    "bodyWeightKg": 70,
+    "sport": "basketball",
+    "position": "guard",
+    "notes": "Demo profile for local development."
+  },
+  "preferences": {
+    "weeklyFrequency": 4,
+    "sessionLimitMinutes": 90,
+    "priorities": [
+      "max_strength",
+      "hypertrophy_weight_gain",
+      "basketball_explosiveness",
+      "recovery"
+    ],
+    "antiAnxietyPrinciple": true
+  },
+  "benchmarks": [
+    {
+      "id": "bodyweight",
+      "exerciseName": "体重",
+      "kind": "body_metric",
+      "currentValue": 70,
+      "targetMin": 72,
+      "targetMax": 74,
+      "unit": "kg",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "squat",
+      "exerciseName": "深蹲",
+      "kind": "strength",
+      "currentValue": 80,
+      "targetMin": 100,
+      "targetMax": 110,
+      "unit": "kg",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "deadlift",
+      "exerciseName": "硬拉",
+      "kind": "strength",
+      "currentValue": 100,
+      "targetMin": 120,
+      "targetMax": 130,
+      "unit": "kg",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "bench",
+      "exerciseName": "卧推",
+      "kind": "strength",
+      "currentValue": 60,
+      "targetMin": 75,
+      "targetMax": 80,
+      "unit": "kg",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "ohp",
+      "exerciseName": "实力推",
+      "kind": "strength",
+      "currentValue": 35,
+      "targetMin": 45,
+      "targetMax": 50,
+      "unit": "kg",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "pullup_bw",
+      "exerciseName": "引体向上",
+      "kind": "bodyweight_reps",
+      "currentValue": 10,
+      "targetMin": 16,
+      "targetMax": 18,
+      "unit": "reps",
+      "targetWeeks": 26,
+      "note": ""
+    },
+    {
+      "id": "pullup_weighted",
+      "exerciseName": "引体向上",
+      "kind": "weighted_reps",
+      "currentValue": 0,
+      "targetMin": 5,
+      "targetMax": 5,
+      "unit": "reps",
+      "targetWeeks": 26,
+      "extraWeightKg": 10,
+      "note": "负重10kg×6"
+    }
+  ]
+}

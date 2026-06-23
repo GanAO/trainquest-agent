@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "body": {
+    "heightCm": 175,
+    "currentWeightKg": 70,
+    "weightLogs": []
+  },
+  "goal": {
+    "type": "maintain",
+    "targetWeightKg": null,
+    "targetDate": null
+  },
+  "avatar": {
+    "skinTone": "medium",
+    "hairStyle": "short",
+    "hairColor": "#2a1d16",
+    "shirtColor": "#3b82f6",
+    "shortsColor": "#111827"
+  }
+}

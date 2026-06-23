@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "baseName": "TrainQuest Agent 训练数据中心",
+  "baseToken": null,
+  "baseUrl": null,
+  "dashboardId": null,
+  "dashboardUrl": null,
+  "tables": {},
+  "createdByVersion": "v1",
+  "sync": {
+    "status": "idle",
+    "reason": "demo_config",
+    "lastStartedAt": null,
+    "lastSyncedAt": null
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "w_demo_strength_001",
+      "source": "manual",
+      "date": "2026-06-08",
+      "feeling": "good",
+      "exercises": [
+        {
+          "id": "e_demo_squat_001",
+          "name": "深蹲",
+          "type": "strength",
+          "sets": 4,
+          "reps": 8,
+          "weight": 80,
+          "unit": "kg",
+          "note": "正式组"
+        },
+        {
+          "id": "e_demo_bench_001",
+          "name": "卧推",
+          "type": "strength",
+          "sets": 3,
+          "reps": 10,
+          "weight": 60,
+          "unit": "kg",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-06-08T10:00:00.000Z",
+      "updatedAt": "2026-06-08T10:00:00.000Z"
+    },
+    {
+      "id": "w_demo_cardio_001",
+      "source": "feishu",
+      "date": "2026-06-09",
+      "feeling": "ok",
+      "exercises": [
+        {
+          "id": "e_demo_run_001",
+          "name": "跑步",
+          "type": "cardio",
+          "duration": 30,
+          "distance": 5,
+          "distanceUnit": "km",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-06-09T10:00:00.000Z",
+      "updatedAt": "2026-06-09T10:00:00.000Z"
+    }
+  ]
+}
